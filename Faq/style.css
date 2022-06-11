@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%) fixed;
+    min-width: 330px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    margin-top: 19.2%;
+}
+
+.box {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
+    text-align: center;
+    margin: 148px 6.4% 11% 6.4%;
+    padding-bottom: 31px;
+    padding-left: 7.34%;
+    padding-right: 8%;
+
+    border: 0.7px solid #E8E8EA;
+}
+hr {
+    margin-top: 19px;
+    margin-bottom: 17px;
+}
+
+.illustration-woman-online-mobile {
+    position: absolute;
+    top: -108px;
+    width: 237px;
+    height: 180px;   
+}
+
+.illustration-woman-online-desktop {
+    display: none;
+}
+
+.bg-pattern-desktop {
+    display: none;
+}
+
+.illustration-box-desktop {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1F36;          
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: hsla(237, 12%, 33%, 1);   
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding-left: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.summary:hover {
+    color: #F47B56;
+    transition: 0.2s;
+}
+
+.active {
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E1F36;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #787887;
+}
+
+p {
+    margin-block-end: 0;
+}
+
+.attribution { 
+    margin-top: 10%;
+    margin-bottom: 10px;
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: antiquewhite;
+}
+
+@media screen and (min-width: 920px) {
+
+    .container {
+              margin-top: 0;
+    }
+    
+    .box {
+              text-align: left;
+              margin-top: 129px;
+              margin-left: 15%;
+              margin-right: 12%;
+              padding-top: 65px;
+              padding-bottom: 31px;
+              padding-left: 43%;
+              z-index: 2;
+    }
+
+    .images {
+              position: absolute;
+              width: 58%;
+              height: 100%;
+              left: 0;
+              top: 0;
+              overflow: hidden;
+    }
+
+    .illustration-woman-online-mobile {
+              display: none; 
+    }
+    
+    .bg-pattern-mobile {
+              display: none;
+    }
+
+    .illustration-woman-online-desktop {
+              display: initial;
+              position: absolute;
+              width: 472px;
+              height: 359px;
+              left: -84px;
+              top: 70px;
+    }
+    
+    .bg-pattern-desktop {
+              display: initial;
+              position: absolute;
+              width: 964px;
+              height: 944px;
+              left: -576px;
+              top: -294px;                   
+    }
+    
+    .illustration-box-desktop {
+              display: initial;
+              position: absolute;
+              left: 48px;
+              top: 205px;  
+              z-index: 1;                                
+    }
+    
+    .square {
+              position: absolute;
+              top: 0;
+              left: -141px;
+    }
+
+
+    h1 {
+              text-align: left;
+              font-weight: 700;
+              font-size: 32px;
+              line-height: 40px;
+              margin: 0;
+              padding-bottom: 43px;       
+    }
+    
+    .summary {
+              font-size: 14px;
+              line-height: 17px;
+    }
+}
